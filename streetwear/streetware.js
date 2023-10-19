@@ -70,6 +70,12 @@ const scrape = async (page) => {
             if (object["img"]) {
               object["img"] = object["img"].replace(/\\/g, "");
               object["img"] = JSON.parse(object["img"]);
+              object["img"].forEach((element) => {
+                const baseUrl =
+                  "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto";
+                const imgUrl = baseUrl.concat(element.src);
+                element.src = imgUrl;
+              });
             }
 
             color_object.push(object);
