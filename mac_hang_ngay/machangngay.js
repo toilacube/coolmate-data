@@ -57,31 +57,31 @@ const scrape = async (page) => {
       if (list_color)
         Array.from(list_color.querySelectorAll(".option-color__item")).map(
           (color) => {
-
             let object = {};
 
             object["name"] = color.getAttribute("data-title");
 
+            if (!object["name"]) return;
+
             const bg_btn = color.querySelector(".checkmark");
             object["background"] = bg_btn.getAttribute("style");
 
-            if(object["background"]){
-              object["background"] = object["background"].split("'")[1]
+            if (object["background"]) {
+              object["background"] = object["background"].split("'")[1];
             }
-
 
             object["img"] = color.getAttribute("data-images");
 
             if (object["img"]) {
               object["img"] = object["img"].replace(/\\/g, "");
               object["img"] = JSON.parse(object["img"]);
-              object['img'].forEach(element => {
-                const baseUrl = 'https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto'
-                const imgUrl = baseUrl.concat(element.src)
-                element.src = imgUrl
+              object["img"].forEach((element) => {
+                const baseUrl =
+                  "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto";
+                const imgUrl = baseUrl.concat(element.src);
+                element.src = imgUrl;
               });
             }
-
             color_object.push(object);
           }
         );

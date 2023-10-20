@@ -61,6 +61,7 @@ const scrape = async (page) => {
             let object = {};
 
             object["name"] = color.getAttribute("data-title");
+            if (!object["name"]) return;
 
             const bg_btn = color.querySelector(".checkmark");
             object["background"] = bg_btn.getAttribute("style");

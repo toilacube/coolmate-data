@@ -56,10 +56,6 @@
             "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/October2023/QJ002.lis4.4_78.jpg"
           },
           {
-            "id": "164ec421",
-            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/October2023/QJ002.3_35.jpg"
-          },
-          {
             "id": "dc141f9a",
             "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/October2023/QJ002.4.jpg"
           },
@@ -74,6 +70,14 @@
           {
             "id": "fd471efa",
             "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/October2023/QJ002.8.jpg"
+          },
+          {
+            "id": "164ec421",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/October2023/QJ002.3_35.jpg"
+          },
+          {
+            "id": "f9997460",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/October2023/23CMAW.QJ001.s.3.jpg"
           },
           {
             "id": "59828548",
@@ -192,8 +196,8 @@
   {
     "name": "Áo nỉ chui đầu Lifewear",
     "price": "339.000đ",
-    "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/October2023/ST002.4.jpg",
-    "hover": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/October2023/ST002.updat.1_82.jpg",
+    "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/October2023/ST002.1.jpg",
+    "hover": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/October2023/ST002.updat.5_13.jpg",
     "color_object": [
       {
         "name": "Xám sáng",
@@ -819,7 +823,7 @@
   },
   {
     "name": "Polo Pique Cotton",
-    "price": "269.000đ",
+    "price": "259.000đ",
     "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/August2023/APL100-258-1_23.jpg",
     "hover": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/August2023/s2_CMM1845-Edit.jpg",
     "color_object": [
@@ -1051,40 +1055,10 @@
   },
   {
     "name": "Quần dài Kaki Excool",
-    "price": "439.000đ",
+    "price": "429.000đ",
     "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/April2023/kaki-excool-xamdam-up2s_74.jpg",
     "hover": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/December2021/1-copy-2_99.jpg",
     "color_object": [
-      {
-        "name": "Xám nhạt",
-        "background": "https://media.coolmate.me/cdn-cgi/image/width=160,height=160,quality=80,format=auto/uploads/August2023/s_CMM6493.jpg",
-        "img": [
-          {
-            "id": "a5525d91",
-            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2023/kaki_fix_xam.1.jpg"
-          },
-          {
-            "id": "ee0a768c",
-            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2023/kaki_fix_xam.2.jpg"
-          },
-          {
-            "id": "c2d7cf1e",
-            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2023/kaki_fix_xam.4.jpg"
-          },
-          {
-            "id": "315e755e",
-            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2023/kaki_fix_xam.5.jpg"
-          },
-          {
-            "id": "42d7408c",
-            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2023/kaki_fix_xam.3.jpg"
-          },
-          {
-            "id": "af576b7e",
-            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/August2023/s_CMM6493.jpg"
-          }
-        ]
-      },
       {
         "name": "Xanh Navy",
         "background": "https://media.coolmate.me/cdn-cgi/image/width=160,height=160,quality=80,format=auto/uploads/August2023/s_CMM6512.jpg",
@@ -1251,7 +1225,7 @@
   },
   {
     "name": "Quần dài Daily Pants",
-    "price": "269.000đ",
+    "price": "259.000đ",
     "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/January2022/daily.png",
     "hover": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/March2023/navyupsoronanavyu_32.jpg",
     "color_object": [
@@ -1571,32 +1545,10 @@
   },
   {
     "name": "T-Shirt Cotton Compact",
-    "price": "199.000đ",
+    "price": "189.000đ",
     "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/November2021/1426x2100_(3).jpg",
     "hover": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/March2023/blue_copy.jpg",
     "color_object": [
-      {
-        "name": "Xanh rêu",
-        "background": "https://media.coolmate.me/cdn-cgi/image/width=160,height=160,quality=80,format=auto/uploads/August2022/Cotton_compact_xanh_reu_new_can_chat.jpg",
-        "img": [
-          {
-            "id": "87367b26",
-            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/August2022/full_234.jpg"
-          },
-          {
-            "id": "4a6d0e70",
-            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/August2022/Cotton_compact_xanh_reu_new_thumb.jpg"
-          },
-          {
-            "id": "3d36dbdc",
-            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/August2022/Reu_4.jpg"
-          },
-          {
-            "id": "a82f8306",
-            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/August2022/Cotton_compact_xanh_reu_new_can_chat.jpg"
-          }
-        ]
-      },
       {
         "name": "Đen",
         "background": "https://media.coolmate.me/cdn-cgi/image/width=160,height=160,quality=80,format=auto/uploads/November2021/1-5avgg2cc_46.jpg",
@@ -1676,6 +1628,28 @@
           {
             "id": "6cf53d71",
             "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/uploads/November2021/2-5a23.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Xanh rêu",
+        "background": "https://media.coolmate.me/cdn-cgi/image/width=160,height=160,quality=80,format=auto/uploads/August2022/Cotton_compact_xanh_reu_new_can_chat.jpg",
+        "img": [
+          {
+            "id": "87367b26",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/August2022/full_234.jpg"
+          },
+          {
+            "id": "4a6d0e70",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/August2022/Cotton_compact_xanh_reu_new_thumb.jpg"
+          },
+          {
+            "id": "3d36dbdc",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/August2022/Reu_4.jpg"
+          },
+          {
+            "id": "a82f8306",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/August2022/Cotton_compact_xanh_reu_new_can_chat.jpg"
           }
         ]
       },
@@ -1924,39 +1898,21 @@
     "price": "539.000đ",
     "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/May2023/Quan_Jeans_dang_OG_Slim-thuumb-1.jpg",
     "hover": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/March2023/Coolmate_x_Copper_Denim__Quan_Jeans_dang_OG_Slim10.jpg",
-    "color_object": [
-      {
-        "name": null,
-        "background": "https://media.coolmate.me/cdn-cgi/image/width=160,height=160,quality=85,format=auto/uploads/March2023/Coolmate_x_Copper_Denim__Quan_Jeans_dang_Slim_Fit14.jpg",
-        "img": null
-      }
-    ]
+    "color_object": []
   },
   {
     "name": "Jeans Copper Denim Slim Fit",
     "price": "539.000đ",
     "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/May2023/Quan_Jeans_dang_Slim_Fit-thumb-1.jpg",
     "hover": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/March2023/Coolmate_x_Copper_Denim__Quan_Jeans_dang_Slim_Fit10.jpg",
-    "color_object": [
-      {
-        "name": null,
-        "background": "https://media.coolmate.me/cdn-cgi/image/width=160,height=160,quality=85,format=auto/uploads/March2023/Coolmate_x_Copper_Denim__Quan_Jeans_dang_Slim_Fit14.jpg",
-        "img": null
-      }
-    ]
+    "color_object": []
   },
   {
     "name": "Jeans Copper Denim Straight",
     "price": "539.000đ",
     "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/May2023/jenas-copper-straight-s1.jpg",
     "hover": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/March2023/Straight-Garment-frontlight1.jpg",
-    "color_object": [
-      {
-        "name": null,
-        "background": "https://media.coolmate.me/cdn-cgi/image/width=160,height=160,quality=85,format=auto/uploads/March2023/1Straight-LB-zip.jpg",
-        "img": null
-      }
-    ]
+    "color_object": []
   },
   {
     "name": "Tanktop thể thao Dri-Breathe",
@@ -2182,7 +2138,7 @@
   },
   {
     "name": "Polo Pique Cotton USA",
-    "price": "279.000đ",
+    "price": "259.000đ",
     "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/September2022/USA_REU_1_91.jpg",
     "hover": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/March2023/USA_REU_7.jpg",
     "color_object": [
@@ -2254,7 +2210,7 @@
   },
   {
     "name": "Polo Café",
-    "price": "289.000đ",
+    "price": "269.000đ",
     "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/April2023/IMG_5250_(1).jpg",
     "hover": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/May2023/245den6-1_37.jpg",
     "color_object": [
@@ -3075,39 +3031,21 @@
     "price": "539.000đ",
     "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/May2023/Quan_Jeans_dang_OG_Slim-thuumb-2.jpg",
     "hover": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/March2023/Coolmate_x_Copper_Denim__Quan_Jeans_dang_OG_Slim8.jpg",
-    "color_object": [
-      {
-        "name": null,
-        "background": "https://media.coolmate.me/cdn-cgi/image/width=160,height=160,quality=85,format=auto/uploads/March2023/Coolmate_x_Copper_Denim__Quan_Jeans_dang_Slim_Fit13.jpg",
-        "img": null
-      }
-    ]
+    "color_object": []
   },
   {
     "name": "Jeans Copper Denim Slim Fit",
     "price": "539.000đ",
     "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/May2023/Quan_Jeans_dang_Slim_Fit-thumb-2.jpg",
     "hover": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/March2023/Coolmate_x_Copper_Denim__Quan_Jeans_dang_Slim_Fit7.jpg",
-    "color_object": [
-      {
-        "name": null,
-        "background": "https://media.coolmate.me/cdn-cgi/image/width=160,height=160,quality=85,format=auto/uploads/March2023/Coolmate_x_Copper_Denim__Quan_Jeans_dang_Slim_Fit13.jpg",
-        "img": null
-      }
-    ]
+    "color_object": []
   },
   {
     "name": "Jeans Copper Denim Straight",
     "price": "539.000đ",
     "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/May2023/Quan_Jeans_dang_Straight-thumb-1.jpg",
     "hover": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/March2023/Straight-Garment-frontzz.jpg",
-    "color_object": [
-      {
-        "name": null,
-        "background": "https://media.coolmate.me/cdn-cgi/image/width=160,height=160,quality=85,format=auto/uploads/March2023/1Straight-Garment-zip.jpg",
-        "img": null
-      }
-    ]
+    "color_object": []
   },
   {
     "name": "T-Shirt phối Jeans",
@@ -3195,7 +3133,7 @@
   },
   {
     "name": "Áo khoác Daily",
-    "price": "399.000đ",
+    "price": "349.000đ",
     "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/March2023/zzDSC05363_copy.jpg",
     "hover": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/March2023/DSC05348_copy.jpg",
     "color_object": [
@@ -3702,6 +3640,218 @@
           {
             "id": "b9f7582d",
             "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/July2022/1(4)_4.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Áo dài tay Cotton Compact",
+    "price": "229.000đ",
+    "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/September2022/ao-dai-tay-compact-v2-xam2_35.jpg",
+    "hover": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/March2023/ao-dai-tay-compact-v2-xam3.jpg",
+    "color_object": [
+      {
+        "name": "Xám đậm",
+        "background": "https://media.coolmate.me/cdn-cgi/image/width=160,height=160,quality=80,format=auto/uploads/October2022/anh-mau-ao-thun-dai-tay-cotton-compact-xam-dam-4_93.jpg",
+        "img": [
+          {
+            "id": "5d294441",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/October2022/anh-2D-ao-thun-dai-tay-cotton-compact-xam-dam-8_13.jpg"
+          },
+          {
+            "id": "ae1551f9",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/October2022/anh-chi-tiet-ao-thun-dai-tay-cotton-compact-xam-dam-3_30.jpg"
+          },
+          {
+            "id": "2e63c799",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/October2022/anh-chi-tiet-ao-thun-dai-tay-cotton-compact-xam-dam-6_62.jpg"
+          },
+          {
+            "id": "50dd706b",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/October2022/anh-chi-tiet-ao-thun-dai-tay-cotton-compact-xam-dam-1_46.jpg"
+          },
+          {
+            "id": "2321c113",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/October2022/anh-mau-ao-thun-dai-tay-cotton-compact-xam-dam-5_56.jpg"
+          },
+          {
+            "id": "e7079d24",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/October2022/anh-mau-ao-thun-dai-tay-cotton-compact-xam-dam-4_93.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Xám",
+        "background": "https://media.coolmate.me/cdn-cgi/image/width=160,height=160,quality=80,format=auto/uploads/September2022/2-5a23.jpg",
+        "img": [
+          {
+            "id": "54b853fe",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2022/ao-dai-tay-compact-v2-xam2.jpg"
+          },
+          {
+            "id": "40cc503b",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2022/ao-dai-tay-compact-v2-xam3.jpg"
+          },
+          {
+            "id": "8157f792",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2022/ao-dai-tay-compact-v2-xam4.jpg"
+          },
+          {
+            "id": "7ea419c0",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2022/ao-dai-tay-compact-v2-xam5.jpg"
+          },
+          {
+            "id": "8f4db610",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2022/ao-dai-tay-compact-v2-xam1.jpg"
+          },
+          {
+            "id": "ca2cd7e7",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2022/2-5a23.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Rêu",
+        "background": "https://media.coolmate.me/cdn-cgi/image/width=160,height=160,quality=80,format=auto/uploads/September2022/Cotton_compact_xanh_reu_new_can_chat.jpg",
+        "img": [
+          {
+            "id": "1628f749",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2022/ao-dai-tay-compact-v2-reu2_70.jpg"
+          },
+          {
+            "id": "e2532303",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2022/ao-dai-tay-compact-v2-reu4.jpg"
+          },
+          {
+            "id": "6cfa86d9",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2022/ao-dai-tay-compact-v2-reu3.jpg"
+          },
+          {
+            "id": "84b9af1d",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2022/ao-dai-tay-compact-v2-reu5.jpg"
+          },
+          {
+            "id": "97c1422f",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2022/ao-dai-tay-compact-v2-reu6.jpg"
+          },
+          {
+            "id": "2de9552f",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2022/ao-dai-tay-compact-v2-reu7.jpg"
+          },
+          {
+            "id": "b6ab4150",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2022/ao-dai-tay-compact-v2-reu1.jpg"
+          },
+          {
+            "id": "31cd11a9",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2022/Cotton_compact_xanh_reu_new_can_chat.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Xanh Navy",
+        "background": "https://media.coolmate.me/cdn-cgi/image/width=160,height=160,quality=80,format=auto/uploads/September2022/2preimum_Tshirt_mau_xanh_navy_3.jpg",
+        "img": [
+          {
+            "id": "0656f3ec",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2022/ao-dai-tay-compact-v2-navy2.jpg"
+          },
+          {
+            "id": "2069fe68",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2022/ao-dai-tay-compact-v2-navy3.jpg"
+          },
+          {
+            "id": "05a7023b",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2022/ao-dai-tay-compact-v2-navy4.jpg"
+          },
+          {
+            "id": "07ccf5e9",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2022/ao-dai-tay-compact-v2-navy5.jpg"
+          },
+          {
+            "id": "68094cd9",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2022/ao-dai-tay-compact-v2-navy7.jpg"
+          },
+          {
+            "id": "07d95d01",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2022/ao-dai-tay-compact-v2-navy6.jpg"
+          },
+          {
+            "id": "6c6cd9ce",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2022/ao-dai-tay-compact-v2-navy1.jpg"
+          },
+          {
+            "id": "2fac31b5",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2022/2preimum_Tshirt_mau_xanh_navy_3.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Trắng",
+        "background": "https://media.coolmate.me/cdn-cgi/image/width=160,height=160,quality=80,format=auto/uploads/September2022/3-7a.jpg",
+        "img": [
+          {
+            "id": "d161d821",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2022/ao-dai-tay-compact-v2-trang3.jpg"
+          },
+          {
+            "id": "589bfa9f",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2022/ao-dai-tay-compact-v2-trang2.jpg"
+          },
+          {
+            "id": "67ed714d",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2022/ao-dai-tay-compact-v2-trang4.jpg"
+          },
+          {
+            "id": "1c8d0878",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2022/ao-dai-tay-compact-v2-trang5.jpg"
+          },
+          {
+            "id": "9f1b9ee3",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2022/ao-dai-tay-compact-v2-trang1.jpg"
+          },
+          {
+            "id": "41f69fe2",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2022/3-7a.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Đen",
+        "background": "https://media.coolmate.me/cdn-cgi/image/width=160,height=160,quality=80,format=auto/uploads/September2022/21-5avgg2cc_46.jpg",
+        "img": [
+          {
+            "id": "269df2a7",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2022/ao-dai-tay-compact-v2-den2.jpg"
+          },
+          {
+            "id": "d55162f3",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2022/ao-dai-tay-compact-v2-den3.jpg"
+          },
+          {
+            "id": "bc9fbbd2",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2022/ao-dai-tay-compact-v2-den4.jpg"
+          },
+          {
+            "id": "acbfaa3b",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2022/ao-dai-tay-compact-v2-den5.jpg"
+          },
+          {
+            "id": "fafe0d5f",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2022/ao-dai-tay-compact-v2-den6.jpg"
+          },
+          {
+            "id": "d4c3bba9",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2022/ao-dai-tay-compact-v2-den7.jpg"
+          },
+          {
+            "id": "2b9ddef8",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2022/ao-dai-tay-compact-v2-den1.jpg"
+          },
+          {
+            "id": "6cffcfa2",
+            "src": "https://media.coolmate.me/cdn-cgi/image/quality=80,format=auto/image/September2022/21-5avgg2cc_46.jpg"
           }
         ]
       }
@@ -4248,13 +4398,7 @@
     "price": "329.000đ",
     "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/May2023/thumbPolo_Copper_1A1.jpg",
     "hover": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/May2023/Polo_Copper_1B1.jpg",
-    "color_object": [
-      {
-        "name": null,
-        "background": "https://media.coolmate.me/cdn-cgi/image/width=160,height=160,quality=85,format=auto/uploads/May2023/Polo_Copper_1B4.jpg",
-        "img": null
-      }
-    ]
+    "color_object": []
   },
   {
     "name": "Mũ lưỡi trai Tech Cap",
@@ -4991,13 +5135,7 @@
     "price": "169.000đ",
     "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/April2022/d4.jpg",
     "hover": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/November2021/hand.jpg",
-    "color_object": [
-      {
-        "name": null,
-        "background": "https://media.coolmate.me/cdn-cgi/image/width=160,height=160,quality=85,format=auto/uploads/November2021/heart2_(2).jpg",
-        "img": null
-      }
-    ]
+    "color_object": []
   },
   {
     "name": "Bucket Hat Care & Share",
@@ -5042,13 +5180,7 @@
     "price": "169.000đ",
     "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/April2022/d7.jpg",
     "hover": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/November2021/box3.jpg",
-    "color_object": [
-      {
-        "name": null,
-        "background": "https://media.coolmate.me/cdn-cgi/image/width=160,height=160,quality=85,format=auto/uploads/November2021/box2.jpg",
-        "img": null
-      }
-    ]
+    "color_object": []
   },
   {
     "name": "Bucket Hat Care & Share",
@@ -5497,13 +5629,7 @@
     "price": "199.000đ",
     "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/November2021/nanodaiiiidblue2.jpg",
     "hover": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/November2021/uSomi_xanhden_dai-076_copy.jpg",
-    "color_object": [
-      {
-        "name": null,
-        "background": "https://media.coolmate.me/cdn-cgi/image/width=160,height=160,quality=85,format=auto/uploads/November2021/1-3_(1).jpg",
-        "img": null
-      }
-    ]
+    "color_object": []
   },
   {
     "name": "Mũ lưỡi trai Baseball Cap",
@@ -6508,12 +6634,6 @@
     "price": "384.000đ",
     "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/October2022/balo-84-rising1.jpg",
     "hover": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/October2022/_CMM3598-Edit.jpg",
-    "color_object": [
-      {
-        "name": null,
-        "background": "https://media.coolmate.me/cdn-cgi/image/width=160,height=160,quality=85,format=auto/uploads/November2022/84-RISING23.jpg.jpg",
-        "img": null
-      }
-    ]
+    "color_object": []
   }
 ]

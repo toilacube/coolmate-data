@@ -1,6 +1,4 @@
-const arr = ['a', 'b', 'c', 'd'];
 
-const withoutLast = arr.slice(1, -1);
-console.log(withoutLast); // 👉️ ['a','b','c']
+const s = "QUẦN ÁO DÀI TAY"
 
-console.log(arr); // 👉️ ['a', 'b', 'c', 'd']
+console.log(s.toLowerCase())
