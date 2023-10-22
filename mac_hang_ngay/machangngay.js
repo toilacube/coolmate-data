@@ -87,7 +87,10 @@ const scrape = async (page) => {
         );
 
       if (name) name = name.innerText;
-      if (price) price = price.innerText;
+      if (price) {
+        price = price.innerText;
+        price = price.slice(0, -1)
+      }
       if (img) img = img.getAttribute("src");
       if (hover) hover = hover.getAttribute("src");
 
