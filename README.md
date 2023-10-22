@@ -1,14 +1,16 @@
 ## coolmate-data
+
 **For school projects**
 
-- Crawl data from [coolmate website](https://www.coolmate.me/) 
+- Crawl data from [coolmate website](https://www.coolmate.me/)
 - Import data to mysql
 
-### All the tables for the data 
+### All the tables for the data
 
 **product table**
 
-`+-------------+---------------+------+-----+---------+----------------+
+```
++-------------+---------------+------+-----+---------+----------------+
 | Field       | Type          | Null | Key | Default | Extra          |
 +-------------+---------------+------+-----+---------+----------------+
 | id          | int           | NO   | PRI | NULL    | auto_increment |
@@ -20,21 +22,25 @@
 | price_int   | int           | YES  |     | NULL    |                |
 | price_str   | varchar(10)   | YES  |     | NULL    |                |
 +-------------+---------------+------+-----+---------+----------------+
-8 rows`
+8 rows
+```
 
 **product_category table**
 
-`+--------------------+--------------+------+-----+---------+----------------+
+```
++--------------------+--------------+------+-----+---------+----------------+
 | Field              | Type         | Null | Key | Default | Extra          |
 +--------------------+--------------+------+-----+---------+----------------+
 | id                 | int          | NO   | PRI | NULL    | auto_increment |
 | parent_category_id | int          | YES  |     | NULL    |                |
 | category_name      | varchar(200) | YES  |     | NULL    |                |
 +--------------------+--------------+------+-----+---------+----------------+
-3 rows`
+3 rows
+```
 
 **product_item table**
-`
+
+```
 +--------------+---------------+------+-----+---------+----------------+
 | Field        | Type          | Null | Key | Default | Extra          |
 +--------------+---------------+------+-----+---------+----------------+
@@ -45,15 +51,19 @@
 | color_image  | varchar(1000) | YES  |     | NULL    |                |
 | qty_in_stock | int           | YES  |     | NULL    |                |
 +--------------+---------------+------+-----+---------+----------------+
-6 rows`
+6 rows
+```
 
 **product_image table**
 
-`+-----------------+--------------+------+-----+---------+----------------+
+```
++-----------------+--------------+------+-----+---------+----------------+
 | Field           | Type         | Null | Key | Default | Extra          |
 +-----------------+--------------+------+-----+---------+----------------+
 | id              | int          | NO   | PRI | NULL    | auto_increment |
 | product_item_id | int          | YES  | MUL | NULL    |                |
 | url             | varchar(200) | YES  |     | NULL    |                |
 +-----------------+--------------+------+-----+---------+----------------+
-3 rows`
+3 rows
+
+```
