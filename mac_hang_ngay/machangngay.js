@@ -86,18 +86,25 @@ const scrape = async (page) => {
           }
         );
 
+      let price_int = 0;
+
       if (name) name = name.innerText;
+
       if (price) {
         price = price.innerText;
-        price = price.slice(0, -1)
+        let price_str = price.slice(0, -1);
+        const cleanedStr = price_str.replace(".", ""); // Remove the comma
+        price_int = parseInt(cleanedStr, 10);
       }
+
       if (img) img = img.getAttribute("src");
       if (hover) hover = hover.getAttribute("src");
 
       if (name && price) {
         return {
           name,
-          price,
+          price_str: price,
+          price_int,
           img,
           hover,
           color_object,
