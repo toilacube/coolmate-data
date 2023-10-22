@@ -22,6 +22,24 @@ datas.forEach((data) => {
   console.log("Colors count of each product: ", data.color_object.length);
 
   /*
+    classify the products' category
+  */
+
+  let category = ""
+  let category_id = 0;
+
+  if (data.name.toLowerCase().includes("áo")) category = "Áo các loại";
+  else if (data.name.toLowerCase().includes("quần")) category = "Quần các loại";
+  else category = "Phụ kiện các loại";
+
+  sql = "select id from product_category where category_name = ?";
+  values = [[category]];
+
+  connection.query(sql, [values], (err, results) => {
+    if (err) throw err;
+    category_id = results[0].id;
+
+  /*
     ADD DATA TO product TABLE
 +-------------+---------------+------+-----+---------+----------------+
 | Field       | Type          | Null | Key | Default | Extra          |
@@ -34,14 +52,14 @@ datas.forEach((data) => {
 
   */
 
-  sql = "insert into product (name) values ?;";
-  values = [[data.name]];
-  let product_id = -1;
-  connection.query(sql, [values], (error, results) => {
-    if (error) throw error;
-    product_id = results.insertId;
+    sql = "insert into product (category_id, name) values ?;";
+    values = [[category_id, data.name]];
+    let product_id = -1;
+    connection.query(sql, [values], (error, results) => {
+      if (error) throw error;
+      product_id = results.insertId;
 
-    /*
+      /*
         ADD DATA TO product_item TABLE
 +--------------+---------------+------+-----+---------+----------------+
 | Field        | Type          | Null | Key | Default | Extra          |
@@ -57,18 +75,18 @@ datas.forEach((data) => {
 
     */
 
-    data.color_object.forEach((color) => {
-      sql =
-        "insert into product_item (product_id, size, color, color_image, price) values ?";
-      values = [[product_id, "M", color.name, color.background, data.price]];
+      data.color_object.forEach((color) => {
+        sql =
+          "insert into product_item (product_id, size, color, color_image, price) values ?";
+        values = [[product_id, "M", color.name, color.background, data.price]];
 
-      connection.query(sql, [values], (err, result) => {
-        if (err) throw err;
+        connection.query(sql, [values], (err, result) => {
+          if (err) throw err;
 
-        const id = result.insertId;
+          const id = result.insertId;
 
-        color.img.forEach((element) => {
-          /*
+          color.img.forEach((element) => {
+            /*
           ADD DATA TO product_image TABLE
 +-----------------+--------------+------+-----+---------+----------------+
 | Field           | Type         | Null | Key | Default | Extra          |
@@ -79,10 +97,11 @@ datas.forEach((data) => {
 +-----------------+--------------+------+-----+---------+----------------+
 
         */
-          sql = "insert into product_image (product_item_id, url) values ?";
-          values = [[id, element.src]];
-          connection.query(sql, [values], (err, result) => {
-            if (err) throw err;
+            sql = "insert into product_image (product_item_id, url) values ?";
+            values = [[id, element.src]];
+            connection.query(sql, [values], (err, result) => {
+              if (err) throw err;
+            });
           });
         });
       });
