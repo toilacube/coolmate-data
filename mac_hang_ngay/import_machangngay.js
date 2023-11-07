@@ -6,12 +6,12 @@ var connection = mysql.createPool({
   host: "localhost",
   port: 3306,
   user: "root",
-  database: "ecommerce",
-  password: "",
+  database: "ecommerce3",
+  password: "bo777909",
 });
 
 export default function mac_hang_ngay() {
-  let rawdata = fs.readFileSync("./mac_hang_ngay/mac_hang_ngay_data63.json");
+  let rawdata = fs.readFileSync("./mac_hang_ngay/mac_hang_ngay_data60.json");
   let datas = JSON.parse(rawdata);
 
   let sql = "";
@@ -53,32 +53,29 @@ export default function mac_hang_ngay() {
 
       /*
     ADD DATA TO product TABLE
-+-------------+---------------+------+-----+---------+----------------+
-| Field       | Type          | Null | Key | Default | Extra          |
-+-------------+---------------+------+-----+---------+----------------+
-| id          | int           | NO   | PRI | NULL    | auto_increment |
-| category_id | int           | YES  | MUL | NULL    |                |
-| name        | varchar(500)  | YES  |     | NULL    |                |
-| description | varchar(4000) | YES  |     | NULL    |                |
-| img         | varchar(50)   | YES  |     | NULL    |                |
-| hover       | varchar(50)   | YES  |     | NULL    |                |
-| price_int   | int           | YES  |     | NULL    |                |
-| price_str   | varchar(10)   | YES  |     | NULL    |                |
-+-------------+---------------+------+-----+---------+----------------+
-
++-------------+--------------+------+-----+---------+----------------+
+| Field       | Type         | Null | Key | Default | Extra          |
++-------------+--------------+------+-----+---------+----------------+
+| id          | int          | NO   | PRI | NULL    | auto_increment |
+| category_id | int          | YES  | MUL | NULL    |                |
+| name        | varchar(100) | YES  |     | NULL    |                |
+| description | varchar(400) | YES  |     | NULL    |                |
+| price_int   | int          | YES  |     | NULL    |                |
+| price_str   | varchar(10)  | YES  |     | NULL    |                |
++-------------+--------------+------+-----+---------+----------------+
+6 rows in set (0,00 sec)
 
   */
 
       sql =
-        "insert into product (category_id, name, img, hover,price_str, price_int) values ?;";
+        "insert into product (category_id, name,price_str, price_int, description) values ?;";
       values = [
         [
           category_id,
           data.name,
-          data.img,
-          data.hover,
           data.price_str,
           data.price_int,
+          data.list_feat,
         ],
       ];
       let product_id = -1;
@@ -123,18 +120,20 @@ export default function mac_hang_ngay() {
 
               color.img.forEach((element) => {
                 /*
-          ADD DATA TO product_image TABLE
+          ADD DATA TO product_item_image TABLE
 +-----------------+--------------+------+-----+---------+----------------+
 | Field           | Type         | Null | Key | Default | Extra          |
 +-----------------+--------------+------+-----+---------+----------------+
 | id              | int          | NO   | PRI | NULL    | auto_increment |
 | product_item_id | int          | YES  | MUL | NULL    |                |
-| url             | varchar(100) | YES  |     | NULL    |                |
+| url             | varchar(200) | YES  |     | NULL    |                |
 +-----------------+--------------+------+-----+---------+----------------+
+3 rows in set (0,00 sec)
+
 
         */
                 sql =
-                  "insert into product_image (product_item_id, url) values ?";
+                  "insert into product_item_image (product_item_id, url) values ?";
                 values = [[id, element.src]];
                 connection.query(sql, [values], (err, result) => {
                   if (err) throw err;
