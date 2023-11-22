@@ -11,7 +11,7 @@ var connection = mysql.createPool({
 });
 
 export default function mac_hang_ngay() {
-  let rawdata = fs.readFileSync("./mac_hang_ngay/mac_hang_ngay_data60.json");
+  let rawdata = fs.readFileSync("./mac_hang_ngay/data_mac_hang_ngay.json");
   let datas = JSON.parse(rawdata);
 
   let sql = "";
@@ -20,8 +20,6 @@ export default function mac_hang_ngay() {
   console.log("Products count: ", datas.length);
 
   datas.forEach((data) => {
-    console.log("Colors count of each product: ", data.color_object.length);
-
     /*
     classify the products' category
   */
@@ -75,7 +73,7 @@ export default function mac_hang_ngay() {
           data.name,
           data.price_str,
           data.price_int,
-          data.list_feat,
+          data.description,
         ],
       ];
       let product_id = -1;
@@ -145,4 +143,5 @@ export default function mac_hang_ngay() {
       });
     });
   });
+  console.log("Query complete");
 }
